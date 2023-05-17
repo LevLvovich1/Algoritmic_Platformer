@@ -5,8 +5,8 @@ using UnityEngine;
 public class Missile : MonoBehaviour
 {
     public Transform teleportPoint;
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-    
+        
     }
 }
